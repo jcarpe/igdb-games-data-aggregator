@@ -1,0 +1,20 @@
+{
+  "name": "igdb-games-data-aggregator",
+  "version": "1.0.0",
+  "description": "aggregating data for my games collection from IGDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config=./jest.config.js",
+    "test:watch": "jest --config=./jest.config.js --watchAll"
+  },
+  "author": "Joe Carpenito",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.4.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.10",
+    "@babel/preset-env": "^7.16.10",
+    "babel-jest": "^27.4.6"
+  }
+}
