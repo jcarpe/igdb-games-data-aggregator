@@ -1,21 +1,22 @@
+// import { loadENV } from './envLoader'
 import IGDB from './services/igdb'
 
 const igdbService = new IGDB({
-  clientSecret: 'e4ys2hra3fq94qxednr11me9ijuzos',
-  clientID: 'rugsgs2huvr5b0p6xw274tu7nuyxyj',
-  baseURL: 'api.igdb.com'
+  clientSecret: process.env.SERVICE_CLIENT_ID,
+  clientID: process.env.SERVICE_CLIENT_TOKEN,
+  baseURL: process.env.SERVICE_BASE_URL
 });
 
 const main = async () => {
-  await igdbService.authenticate('id.twitch.tv')
+  const auth = await igdbService.authenticate(process.env.SERVICE_O_AUTH_URL)
 
-  const result = await igdbService.request('v4/games', `
-    fields name;
-    search "breath of the wild";
-    limit 500;
-  `)
+  // const result = await igdbService.request('v4/games', `
+  //   fields name;
+  //   search "breath of the wild";
+  //   limit 500;
+  // `)
 
-  console.log(result)
+  console.log(auth)
 }
 
 main()

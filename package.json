@@ -5,19 +5,19 @@
   "source": "src/index.js",
   "main": "dist/main.js",
   "scripts": {
-    "dev": "parcel build",
+    "dev": "parcel",
+    "build": "parcel build",
     "test": "jest --config=./jest.config.js",
     "test:watch": "jest --config=./jest.config.js --watchAll"
   },
   "author": "Joe Carpenito",
   "license": "ISC",
-  "dependencies": {
-    "jest": "^27.4.7"
-  },
   "devDependencies": {
     "@babel/core": "^7.16.10",
     "@babel/preset-env": "^7.16.10",
     "babel-jest": "^27.4.6",
+    "http-request-mock": "^1.5.9",
+    "jest": "^27.4.7",
     "parcel": "^2.2.1"
   }
 }

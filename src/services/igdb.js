@@ -4,7 +4,7 @@ import { Buffer } from 'buffer'
 
 export default class IGDB {
   #clientSecret = ''
-  #req = null
+  #apiVer = 'v4'
   #baseReqConfig = {
     method: 'POST',
     headers: {
@@ -32,22 +32,6 @@ export default class IGDB {
       })
       req.write(queryString)
       req.end();
-    })
-  }
-
-  /**
-   * PRIVATE
-   * Promise wrapped unzipper for gzipped responses
-   * @param {Array} buffer buffer array that is gzipped (usually API response)
-   * @returns Promise instance that will resolve an unzipped buffer or reject on error
-   */
-  #unzipPromiseGenerator = async buffer => {
-    // console.log(buffer)
-    return new Promise((resolve, reject) => {
-      zlib.unzip(buffer, (err, buffer) => {
-        if (err) reject(err)
-        else resolve(buffer)
-      })
     })
   }
 
@@ -89,16 +73,17 @@ export default class IGDB {
     }
 
     const result = await this.#requestPromiseGenerator(options)
+    const parsed = JSON.parse(result)
 
     this.#baseReqConfig = {
       ...this.#baseReqConfig,
       headers: {
         ...this.#baseReqConfig.headers,
-        'Authorization': `Bearer ${JSON.parse(result)['access_token']}`
+        'Authorization': `Bearer ${parsed['access_token']}`
       }
     }
 
-    return result
+    return parsed
   }
 
   /**
@@ -107,7 +92,7 @@ export default class IGDB {
   async request(endpoint, queryString) {
     const options = {
       ...this.#baseReqConfig,
-      path: `/${endpoint}`,
+      path: `/${this.#apiVer}/${endpoint}`,
       headers: {
         ...this.#baseReqConfig.headers,
         'Content-Length': queryString.length
@@ -115,8 +100,8 @@ export default class IGDB {
     }
 
     const result = await this.#requestPromiseGenerator(options, queryString)
-    const unzipped = await this.#unzipPromiseGenerator(result)
-    return unzipped.toString('utf8')
+    const unzipped = zlib.unzipSync(result)
+    return JSON.parse(unzipped.toString('utf8'))
   }
 
   /**
