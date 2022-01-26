@@ -1,4 +1,3 @@
-// import { loadENV } from './envLoader'
 import IGDB from './services/igdb'
 
 const igdbService = new IGDB({
