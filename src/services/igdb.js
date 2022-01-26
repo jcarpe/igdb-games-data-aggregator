@@ -87,7 +87,10 @@ export default class IGDB {
   }
 
   /**
-   * Request 
+   * Make a POST request to the IGDB api with specified endpoint and query
+   * @param {String} endpoint endpoint method to be used
+   * @param {String} queryString the fully formed query for the body of the request
+   * @returns parsed JSON response
    */
   async request(endpoint, queryString) {
     const options = {
