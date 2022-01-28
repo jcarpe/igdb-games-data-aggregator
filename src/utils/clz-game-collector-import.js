@@ -1,5 +1,6 @@
 import { readFile } from 'fs/promises'
 import { XMLParser } from 'fast-xml-parser'
+import { title } from 'process'
 
 export const loadGames = async (filePath) => {
   const parser = new XMLParser()
@@ -9,7 +10,7 @@ export const loadGames = async (filePath) => {
   const titleArr = []
 
   jsonData.gameinfo.gamelist.game.forEach((game) => {
-    titleArr.push(game.title)
+    if ( game.hardware === 'Game' ) titleArr.push(game.title)
   })
 
   return titleArr
