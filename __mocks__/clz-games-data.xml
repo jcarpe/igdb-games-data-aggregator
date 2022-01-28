@@ -1088,5 +1088,82 @@ As a Raven, you know there's always another mission waiting for you - does it re
   <shoulduploadfrontcover boolvalue="False">No</shoulduploadfrontcover>
   <shoulduploadbackcover boolvalue="False">No</shoulduploadbackcover>
 </game>
+<game>
+  <id>2411</id>
+  <hardware boolvalue="1">Hardware</hardware>
+  <index>479</index>
+  <title>AVS</title>
+  <series/>
+  <platform>
+    <displayname>NES</displayname>
+    <templateimage>C:\Users\joe_c\Documents\Game Collector\Images\Listitemimages\nes.png</templateimage>
+    <scaledimage>C:\Users\joe_c\Documents\Game Collector\Images\Listitemimages\nes16.png</scaledimage>
+    <sortname>NES</sortname>
+    <clzplatformid>-1</clzplatformid>
+    <grouprank>999</grouprank>
+    <rank>999</rank>
+  </platform>
+  <format/>
+  <language/>
+  <publishers/>
+  <developers/>
+  <audiencerating/>
+  <reviewrating>0</reviewrating>
+  <genres/>
+  <coverfront>C:\Users\joe_c\Documents\Game Collector\Images\AVSNES2411_f.jpg</coverfront>
+  <coverback>C:\Users\joe_c\Documents\Game Collector\Images\AVSNES2411_b.jpg</coverback>
+  <backgroundbackdrop>CLZBACKDROP</backgroundbackdrop>
+  <devices/>
+  <releasedate/>
+  <gameshardware>
+    <displayname>Hardware</displayname>
+    <sortname>Hardware</sortname>
+  </gameshardware>
+  <hardwarecategory>
+    <displayname>Consoles</displayname>
+    <sortname>Consoles</sortname>
+  </hardwarecategory>
+  <collectionstatus listid="3">In Collection</collectionstatus>
+  <extras/>
+  <myrating>0</myrating>
+  <myrating>
+    <displayname>0</displayname>
+    <sortname>0</sortname>
+  </myrating>
+  <purchasedate/>
+  <store/>
+  <owner/>
+  <location/>
+  <links/>
+  <condition/>
+  <quantity>1</quantity>
+  <completenessnum>CIB</completenessnum>
+  <completeness listid="1">CIB</completeness>
+  <lastmodified>
+    <date>1/19/2022 7:38:16 PM</date>
+  </lastmodified>
+  <dateadded>
+    <date>1/19/2022 7:38:07 PM</date>
+  </dateadded>
+  <thumbfilepath>C:\Users\joe_c\Documents\Game Collector\Thumbnails\1F0B424B0A2A3F3295715DBC8D7703CC.jpg</thumbfilepath>
+  <bpgameid>0</bpgameid>
+  <bpmediaid>-99</bpmediaid>
+  <clzplatformid>0</clzplatformid>
+  <bpgamelastreceivedrevision>0</bpgamelastreceivedrevision>
+  <bpmedialastreceivedrevision>0</bpmedialastreceivedrevision>
+  <storagedevice/>
+  <submissiondate/>
+  <tags/>
+  <titlefirstletter>
+    <displayname>A</displayname>
+    <sortname>A</sortname>
+  </titlefirstletter>
+  <edition/>
+  <boxset/>
+  <hasbox boolvalue="1">Yes</hasbox>
+  <hasmanual boolvalue="1">Yes</hasmanual>
+  <shoulduploadfrontcover boolvalue="True">Yes</shoulduploadfrontcover>
+  <shoulduploadbackcover boolvalue="True">Yes</shoulduploadbackcover>
+</game>
 </gamelist>
 </gameinfo>
