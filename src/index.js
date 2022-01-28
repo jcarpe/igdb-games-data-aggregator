@@ -1,3 +1,4 @@
+import { loadGames } from './utils/clz-game-collector-import'
 import IGDB from './services/igdb'
 
 const igdbService = new IGDB({
@@ -6,16 +7,6 @@ const igdbService = new IGDB({
   baseURL: process.env.SERVICE_BASE_URL
 });
 
-const main = async () => {
-  const auth = await igdbService.authenticate(process.env.SERVICE_O_AUTH_URL)
-
-  // const result = await igdbService.request('v4/games', `
-  //   fields name;
-  //   search "breath of the wild";
-  //   limit 500;
-  // `)
-
-  console.log(auth)
-}
+const main = async () => {}
 
 main()
