@@ -8,7 +8,7 @@ export default class IGDB {
   #baseReqConfig = {
     method: 'POST',
     headers: {
-      'Accept-Encoding': 'gzip, deflate, br',
+      'Accept-Encoding': 'gzip,deflate,br',
       'Accept': '*/*',
       'Connection': 'keep-alive',
       'Content-Type': 'text/plain'
