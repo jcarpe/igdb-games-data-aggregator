@@ -6,7 +6,7 @@ describe('Request Generators', () => {
       expect(generateGamesMultiQuery(
         ['1Xtreme (Greatest Hits)', '8Eyes', 'Zelda'],
         ['name','storyline','summary','version_title']
-      )).toEqual(`where name = "1Xtreme (Greatest Hits)" | name = "8Eyes" | name = "Zelda"; fields name,storyline,summary,version_title;`)
+      )).toEqual(`query games "Aggregated Games" {where name = "1Xtreme (Greatest Hits)" | name = "8Eyes" | name = "Zelda"; fields name,storyline,summary,version_title;}`)
     })
   })
 })

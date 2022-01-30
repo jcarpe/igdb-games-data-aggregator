@@ -10,5 +10,5 @@ export const generateGamesMultiQuery = (gameArr, fieldArr) => {
     fieldStr += (index !== fieldArr.length-1) ? `${field},` : `${field}`
   })
 
-  return `where ${gameStr}; fields ${fieldStr};`
+  return `query games "Aggregated Games" {where ${gameStr}; fields ${fieldStr};}`
 }
