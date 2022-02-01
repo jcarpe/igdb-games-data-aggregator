@@ -13,7 +13,7 @@ export const loadGames = async (filePath) => {
     let parsedGame = {}
     if ( game.hardware === 'Game' ) {
       parsedGame.title = game.title
-      parsedGame.platform = game.platform.displayname.split('/')[0]
+      parsedGame.platform = game.platform.displayname.split('/')[0].trim()
       gamesArr.push(parsedGame)
     }
   })

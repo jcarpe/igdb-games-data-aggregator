@@ -16,7 +16,7 @@ describe('IGDB Service', () => {
       method: 'POST',
       headers: {
         'Accept': '*/*',
-        'Accept-Encoding': 'gzip, deflate, br',
+        'Accept-Encoding': 'gzip,deflate,br',
         'Client-ID': 'a-sample-client-ID',
         'Connection': 'keep-alive',
         'Content-Type': 'text/plain'
