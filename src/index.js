@@ -16,11 +16,14 @@ const main = async () => {
   await igdbService.authenticate(process.env.SERVICE_O_AUTH_URL)
   const games = await loadGames('./__mocks__/clz-games-data.xml')
 
+  let titleArr = []
+  games.forEach((game) => titleArr.push(game.title))
+
   console.log(games)
 
   const igdbData = await igdbService.request(
     'multiquery',
-    generateGamesMultiQuery(games, ['name','platforms.name'])
+    generateGamesMultiQuery(titleArr, ['name','platforms.name'])
   )
 
   console.log(JSON.stringify(igdbData))

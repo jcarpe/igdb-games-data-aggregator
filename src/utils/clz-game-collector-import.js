@@ -7,11 +7,16 @@ export const loadGames = async (filePath) => {
 
   const xmlData = await readFile(filePath, { encoding: 'utf8' })
   const jsonData = parser.parse(xmlData)
-  const titleArr = []
+  const gamesArr = []
 
   jsonData.gameinfo.gamelist.game.forEach((game) => {
-    if ( game.hardware === 'Game' ) titleArr.push(game.title)
+    let parsedGame = {}
+    if ( game.hardware === 'Game' ) {
+      parsedGame.title = game.title
+      parsedGame.platform = game.platform.displayname.split('/')[0]
+      gamesArr.push(parsedGame)
+    }
   })
 
-  return titleArr
+  return gamesArr
 }
