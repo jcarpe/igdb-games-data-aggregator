@@ -4,17 +4,22 @@ import { title } from 'process'
 
 export const loadGames = async (filePath) => {
   const parser = new XMLParser()
-
   const xmlData = await readFile(filePath, { encoding: 'utf8' })
   const jsonData = parser.parse(xmlData)
   const gamesArr = []
 
-  jsonData.gameinfo.gamelist.game.forEach((game) => {
+  let reqPartition = 0
+  jsonData.gameinfo.gamelist.game.forEach((game, index) => {
+    if ( index%10 === 0 ) {
+      reqPartition = index/10
+      gamesArr[reqPartition] = []
+    }
+
     let parsedGame = {}
     if ( game.hardware === 'Game' ) {
       parsedGame.title = game.title
       parsedGame.platform = game.platform.displayname.split('/')[0].trim()
-      gamesArr.push(parsedGame)
+      gamesArr[reqPartition].push(parsedGame)
     }
   })
 
