@@ -1,6 +1,5 @@
 import { readFile } from 'fs/promises'
 import { XMLParser } from 'fast-xml-parser'
-import { title } from 'process'
 
 export const loadGames = async (filePath) => {
   const parser = new XMLParser()
