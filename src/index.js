@@ -1,3 +1,4 @@
+import { writeFile } from 'fs/promises'
 import { loadGames } from './utils/clz-game-collector-import'
 import IGDB from './services/igdb'
 import { generateGamesMultiQuery } from './utils/request-generators';
@@ -14,20 +15,37 @@ const multiBatchRequester = async (gameBatches) => {
   const batchRequest = async (titleArr) => {
     const igdbData = await igdbService.request(
       'multiquery',
-      generateGamesMultiQuery(titleArr, ['name','platforms.name'])
+      generateGamesMultiQuery(titleArr, [
+        'name',
+        'storyline',
+        'summary',
+        'first_release_date',
+        'franchise.name',
+        'genres.name',
+        'involved_companies.company.name',
+        'player_perspectives.name',
+        'version_title',
+        'platforms.name',
+        'cover.image_id',
+        'screenshots.image_id'
+      ])
     )
 
     return igdbData[0].result
   }
 
-  gameBatches.forEach(async (gameBatch) => {
-    let titleArr = []
-    gameBatch.forEach((game) => titleArr.push(game.title))
+  for (let i = 0; i < gameBatches.length; i++) {
 
-    const batchData = await batchRequest(titleArr)
-    console.log(batchData)
-    allGames = allGames.concat(allGames, batchData)
-  })
+    console.log(`processing game batch ${i}`)
+
+    let titleArr = []
+    gameBatches[i].forEach((game) => titleArr.push(game.title))
+
+    if (titleArr.length > 0) {
+      const batchData = await batchRequest(titleArr)
+      allGames = allGames.concat(batchData)
+    }
+  }
 
   return allGames
 }
@@ -41,19 +59,7 @@ const main = async () => {
   const games = await loadGames('./__mocks__/clz-games-data-FULL.xml')
   const gameData = await multiBatchRequester(games)
 
-  console.log(gameData)
-
-  // let titleArr = []
-  // games[0].forEach((game) => titleArr.push(game.title))
-
-  // console.log(titleArr)
-
-  // const igdbData = await igdbService.request(
-  //   'multiquery',
-  //   generateGamesMultiQuery(titleArr, ['name','platforms.name'])
-  // )
-
-  // console.log(JSON.stringify(igdbData))
+  writeFile('./dist/igdb-data.json', JSON.stringify(gameData))
 }
 
 main()
