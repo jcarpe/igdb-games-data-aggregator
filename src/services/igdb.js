@@ -8,7 +8,7 @@ export default class IGDB {
   #baseReqConfig = {
     method: 'POST',
     headers: {
-      'Accept-Encoding': 'gzip',
+      'Accept-Encoding': 'gzip,deflate,br',
       'Accept': '*/*',
       'Connection': 'keep-alive',
       'Content-Type': 'text/plain'
@@ -103,7 +103,7 @@ export default class IGDB {
     }
 
     const result = await this.#requestPromiseGenerator(options, queryString)
-    let unzipped = zlib.unzipSync(result)
+    let unzipped;
 
     try {
       unzipped = zlib.unzipSync(result)

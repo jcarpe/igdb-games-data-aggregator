@@ -60,4 +60,29 @@ describe('IGDB Service', () => {
       {"id":135268,"name":"The Super Mario Bros. Super Show! 64"}
     ])
   })
+
+  it('returns null and logs an error if the request fails', async () => {
+    mocker.mock({
+      url: 'api.games.plz/v4/games',
+      method: 'post',
+      delay: 0,
+      status: 200,
+      header: {
+        'content-encoding': 'gzip',
+        'content-type': 'application/json;charset=utf-8'
+      },
+      body: 'yucky',
+    })
+
+    console.log = jest.fn()
+
+    const result = await igdbService.request('games', `
+      fields name;
+      search "Super Mario Bros.";
+      limit 10;
+    `)
+
+    expect(console.log).toHaveBeenCalledTimes(1)
+    expect(result).toBeNull()
+  })
 })
