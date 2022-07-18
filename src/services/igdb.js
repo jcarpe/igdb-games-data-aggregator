@@ -76,13 +76,20 @@ export default class IGDB {
     const result = await this.#requestPromiseGenerator(options)
     const parsed = JSON.parse(result)
 
-    this.#baseReqConfig = {
-      ...this.#baseReqConfig,
-      headers: {
-        ...this.#baseReqConfig.headers,
-        'Authorization': `Bearer ${parsed['access_token']}`
+    if ( parsed.status === 200 ) {
+      this.#baseReqConfig = {
+        ...this.#baseReqConfig,
+        headers: {
+          ...this.#baseReqConfig.headers,
+          'Authorization': `Bearer ${parsed['access_token']}`
+        }
       }
+    } else {
+      console.warn(`error authenticating: ${parsed.message}`)
     }
+    
+
+    console.log(parsed)
 
     return parsed
   }
@@ -102,6 +109,8 @@ export default class IGDB {
         'Content-Length': queryString.length
       }
     }
+
+    // console.log(options)
 
     const result = await this.#requestPromiseGenerator(options, queryString)
     let unzipped;
