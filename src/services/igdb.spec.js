@@ -14,6 +14,7 @@ describe('IGDB Service', () => {
   it('initializes service instance with config values', () => {
     expect(igdbService.readReqConfig()).toEqual({
       method: 'POST',
+      clientID: 'a-sample-client-ID',
       headers: {
         'Accept': '*/*',
         'Accept-Encoding': 'gzip,deflate,br',
