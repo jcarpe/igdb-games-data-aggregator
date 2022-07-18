@@ -87,9 +87,6 @@ export default class IGDB {
     } else {
       console.warn(`error authenticating: ${parsed.message}`)
     }
-    
-
-    console.log(parsed)
 
     return parsed
   }
