@@ -4,8 +4,8 @@ import IGDB from './services/igdb'
 import { generateGamesMultiQuery } from './utils/request-generators';
 
 const igdbService = new IGDB({
-  clientSecret: process.env.SERVICE_CLIENT_ID,
-  clientID: process.env.SERVICE_CLIENT_TOKEN,
+  clientID: process.env.SERVICE_CLIENT_ID,
+  clientSecret: process.env.SERVICE_CLIENT_TOKEN,
   baseURL: process.env.SERVICE_BASE_URL
 });
 

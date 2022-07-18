@@ -76,7 +76,7 @@ export default class IGDB {
     const result = await this.#requestPromiseGenerator(options)
     const parsed = JSON.parse(result)
 
-    if ( parsed.status === 200 ) {
+    if ( !parsed.status ) {
       this.#baseReqConfig = {
         ...this.#baseReqConfig,
         headers: {
@@ -106,8 +106,6 @@ export default class IGDB {
         'Content-Length': queryString.length
       }
     }
-
-    // console.log(options)
 
     const result = await this.#requestPromiseGenerator(options, queryString)
     let unzipped;
