@@ -48,6 +48,7 @@ export default class IGDB {
     this.#clientSecret = initParams.clientSecret
     this.#baseReqConfig = {
       ...this.#baseReqConfig,
+      clientID: initParams.clientID,
       headers: {
         ...this.#baseReqConfig.headers,
         'Client-ID': initParams.clientID
