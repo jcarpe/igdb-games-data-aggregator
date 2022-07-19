@@ -1,0 +1,38 @@
+[
+  {
+    "igdbKey": "Atari 2600",
+    "names": ["Atari 2600", "Atari 2600/VCS"]
+  },
+  {
+    "igdbKey": "BBC Microcomputer System",
+    "names": ["BBC Microcomputer System"]
+  },
+  {
+    "igdbKey": "Nintendo Entertainment System (NES)",
+    "names": ["NES", "Nintendo Entertainment System", "Nintendo Entertainment System (NES)"]
+  },
+  {
+    "igdbKey": "PlayStation 2",
+    "names": ["PS2", "PlayStation2", "PlayStation 2"]
+  },
+  {
+    "igdbKey": "PlayStation Portable",
+    "names": ["PSP", "PlayStation Portable"]
+  },
+  {
+    "igdbKey": "Sega Saturn",
+    "names": ["Saturn", "Sega Saturn"]
+  },
+  {
+    "igdbKey": "Sega Mega Drive/Genesis",
+    "names": ["Sega Mega Drive", "Mega Drive", "MegaDrive", "Genesis", "Sega Genesis", "Sega Mega Drive/Genesis", "Genesis / Mega Drive"]
+  },
+  {
+    "igdbKey": "Game Boy Color",
+    "names": ["GBC", "GameBoy Color", "Game Boy Color"]
+  },
+  {
+    "igdbKey": "Game Boy",
+    "names": ["GB", "GameBoy", "Game Boy"]
+  }
+]
