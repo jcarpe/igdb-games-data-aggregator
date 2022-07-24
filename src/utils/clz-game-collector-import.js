@@ -19,7 +19,6 @@ const mapGameData = clzGameData => {
       return null
     })(),
     collection_region: clzGameData.region?.displayName,
-    
     igdb_first_release_date: 0,
     igdb_genres: [],
     igdb_id: 0,
@@ -34,7 +33,7 @@ const mapGameData = clzGameData => {
       igdb_screenshots: []
     },
     platforms: {
-      owned_on: [],
+      owned_on: [clzGameData.platform?.displayname],
       released_on: []
     }
   }

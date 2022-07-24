@@ -41,7 +41,7 @@ const multiBatchRequester = async (gameBatches) => {
     console.log(`processing game batch ${i}`)
 
     let titleArr = []
-    gameBatches[i].forEach((game) => titleArr.push(game.title))
+    gameBatches[i].forEach((game) => titleArr.push(game.collection_name))
 
     if (titleArr.length > 0) {
       const batchData = await batchRequest(titleArr)
@@ -50,6 +50,24 @@ const multiBatchRequester = async (gameBatches) => {
   }
 
   return allGames
+}
+
+const mapIGDBData = igdbData => {
+  return {
+    igdb_first_release_date: igdbData.first_release_date,
+    igdb_genres: igdbData.genres,
+    igdb_id: igdbData.id,
+    igdb_involved_companies: igdbData.involved_companies,
+    igdb_name: igdbData.name,
+    igdb_summary: igdbData.summary,
+    images: {
+      igdb_cover: igdbData.cover,
+      igdb_screenshots: igdbData.screenshots
+    },
+    platforms: {
+      released_on: igdbData.platforms
+    }
+  }
 }
 
 const main = async () => {
@@ -67,12 +85,12 @@ const main = async () => {
   const clzGames = games.flat();
   
   let mushedData = [];
-  clzGames.forEach(clzGame => {
+  clzGames.forEach((clzGame, i) => {
     let platformOwned = null;
     let matchedGamesPlatform = gameData.find(el => {
       return el.platforms?.find( platform => {
         const systemNameGroup = systemNameMap.find(nameGroup => nameGroup.igdbKey === platform.name)
-        if (systemNameGroup.names.includes(clzGame.platform)) {
+        if (systemNameGroup.names.includes(clzGame.platforms.owned_on[0])) {
           platformOwned = platform;
           return true
         }
@@ -83,11 +101,14 @@ const main = async () => {
 
     if (matchedGamesPlatform) {
       matchedGamesPlatform.platform_owned = platformOwned;
-      mushedData.push(matchedGamesPlatform)
+      // mushedData.push(mapIGDBData(matchedGamesPlatform))
+      clzGames[i] = Object.assign({}, clzGame, mapIGDBData(matchedGamesPlatform))
     }
   })
 
-  writeFile('./dist/igdb-data.json', JSON.stringify(mushedData))
+  console.log(clzGames)
+
+  writeFile('./dist/igdb-data.json', JSON.stringify(clzGames))
 }
 
 main()

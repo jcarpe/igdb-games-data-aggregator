@@ -1,21 +1,21 @@
 [
   {
-    "igdb_name": "",
-    "collection_name": "",
-    "collection_id": 0,
-    "collection_region": "",
     "collection_completed": false,
     "collection_completeness": {
       "complete_code": "",
       "has_box": false,
       "has_manual": false
     },
+    "collection_id": 0,
+    "collection_name": "",
     "collection_price_charting_url": "",
     "collection_rating": 0,
-    "igdb_id": 0,
+    "collection_region": "",
     "igdb_first_release_date": 0,
     "igdb_genres": [],
+    "igdb_id": 0,
     "igdb_involved_companies": [],
+    "igdb_name": "",
     "igdb_summary": "",
     "images": {
       "igdb_cover": {
