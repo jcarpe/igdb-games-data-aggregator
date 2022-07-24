@@ -7,9 +7,9 @@ describe('CLZ Game Collector Import', () => {
     expect(games).toEqual(expected.data)
   })
 
-  it.only('generates a matrix from CLZ app XML data of extensive length', async () => {
+  it('generates a matrix from CLZ app XML data of extensive length', async () => {
     const games = await loadGames(`./__mocks__/clz-games-data-FULL.xml`)
-    console.log(games)
-    // expect(games).toEqual(expected.data)
+    expect(games.length).toEqual(56)
+    expect(games.flat().length).toEqual(559)
   })
 })

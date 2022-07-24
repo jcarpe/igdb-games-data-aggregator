@@ -3,27 +3,28 @@ import { XMLParser } from 'fast-xml-parser'
 
 const mapGameData = clzGameData => {
   return {
-    igdb_name: "",
-    collection_name: clzGameData.title,
-    collection_id: clzGameData.id,
-    collection_index: clzGameData.index,
-    collection_region: clzGameData.region?.displayName,
     collection_completed: clzGameData.completed === 'Yes' ? true : false,
     collection_completeness: {
       complete_code: clzGameData.completeness,
       has_box: clzGameData.hasbox === 'Yes' ? true : false,
       has_manual: clzGameData.hasmanual === 'Yes' ? true : false
     },
+    collection_id: clzGameData.id,
+    collection_index: clzGameData.index,
+    collection_name: clzGameData.title,
     collection_price_charting_url: clzGameData.pricechartingurl,
     collection_rating: (() => {
       const rating = clzGameData.myrating
       if (rating) return rating.find(rateVal => typeof rateVal === 'number')
       return null
     })(),
-    igdb_id: 0,
+    collection_region: clzGameData.region?.displayName,
+    
     igdb_first_release_date: 0,
     igdb_genres: [],
+    igdb_id: 0,
     igdb_involved_companies: [],
+    igdb_name: "",
     igdb_summary: "",
     images: {
       igdb_cover: {
