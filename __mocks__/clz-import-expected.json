@@ -1,927 +1,172 @@
 {"data": [
   [
-    { "title": "Guardian Heroes", "platform": "Saturn" },
-    { "title": "NiGHTS into Dreams...", "platform": "Saturn" },
-    { "title": "Mystaria : The Realms of Lore", "platform": "Saturn" },
-    { "title": "Street Fighter: The Movie", "platform": "Saturn" },
-    { "title": "Tomb Raider", "platform": "Saturn" },
-    { "title": "Ridge Racer", "platform": "PlayStation" },
-    { "title": "Loaded", "platform": "PlayStation" },
     {
-      "title": "Hoshi no K&#257;b&#299; Yume no Izumi no Monogatari",
-      "platform": "Family Computer"
-    },
-    { "title": "Super Mario Bros. 3", "platform": "Family Computer" },
-    { "title": "Super Mario Bros.", "platform": "Family Computer" }
-  ],
-  [
-    { "title": "Cobra Triangle", "platform": "NES" },
-    { "title": "Final Fantasy", "platform": "NES" },
-    { "title": "Karnov", "platform": "NES" },
-    { "title": "Legendary Wings", "platform": "NES" },
-    { "title": "Metal Gear", "platform": "NES" },
-    { "title": "Rad Racer", "platform": "NES" },
-    { "title": "StarTropics", "platform": "NES" },
-    { "title": "StarTropics (w/ Uncle Mike letter)", "platform": "NES" },
-    { "title": "The Goonies II", "platform": "NES" },
-    { "title": "Golgo 13: Top Secret Episode", "platform": "NES" }
-  ],
-  [
-    { "title": "Shantae: 1/2-Genie Hero", "platform": "PlayStation Vita" },
-    {
-      "title": "Mystery Chronicle: One Way Heroics",
-      "platform": "PlayStation Vita"
+      "igdb_name": "",
+      "collection_name": "1Xtreme (Greatest Hits)",
+      "collection_id": 812,
+      "collection_index": 221,
+      "collection_completed": true,
+      "collection_completeness": {
+        "complete_code": "Loose",
+        "has_box": false,
+        "has_manual": false
+      },
+      "collection_price_charting_url": "https://www.pricecharting.com/game/Playstation/1Xtreme",
+      "collection_rating": 0,
+      "igdb_id": 0,
+      "igdb_first_release_date": 0,
+      "igdb_genres": [],
+      "igdb_involved_companies": [],
+      "igdb_summary": "",
+      "images": {
+        "igdb_cover": { "id": 0, "image_id": "" },
+        "igdb_screenshots": []
+      },
+      "platforms": { "owned_on": [], "released_on": [] }
     },
     {
-      "title": "BIT.TRIP Presents... Runner 2: Future Legend of Rhythm Alien",
-      "platform": "PlayStation Vita"
-    },
-    { "title": "Nova-111", "platform": "PlayStation Vita" },
-    { "title": "Risk Of Rain", "platform": "PlayStation Vita" },
-    {
-      "title": "Dariusburst Chronicle Saviours",
-      "platform": "PlayStation Vita"
-    },
-    {
-      "title": "Mobile Suit Gundam Extreme Vs Force",
-      "platform": "PlayStation Vita"
-    },
-    { "title": "Demon Gaze II", "platform": "PlayStation Vita" },
-    { "title": "Terraria", "platform": "PlayStation Vita" },
-    { "title": "Child of Light", "platform": "PlayStation Vita" }
-  ],
-  [
-    { "title": "Muramasa Rebirth", "platform": "PlayStation Vita" },
-    {
-      "title": "Organ Trail: Complete Edition",
-      "platform": "PlayStation Vita"
-    },
-    { "title": "Freedom Wars", "platform": "PlayStation Vita" },
-    { "title": "Odin Sphere Leifthraiser", "platform": "PlayStation Vita" },
-    {
-      "title": "Organ Trail: Complete Edition",
-      "platform": "PlayStation Vita"
-    },
-    { "title": "Factotum 90", "platform": "PlayStation Vita" },
-    {
-      "title": "Oddworld Munch's Oddysee HD",
-      "platform": "PlayStation Vita"
+      "igdb_name": "",
+      "collection_name": "8 Eyes",
+      "collection_id": 2474,
+      "collection_index": 486,
+      "collection_completed": false,
+      "collection_completeness": {
+        "complete_code": "Loose",
+        "has_box": false,
+        "has_manual": false
+      },
+      "collection_price_charting_url": "https://www.pricecharting.com/game/NES/8-Eyes",
+      "collection_rating": 0,
+      "igdb_id": 0,
+      "igdb_first_release_date": 0,
+      "igdb_genres": [],
+      "igdb_involved_companies": [],
+      "igdb_summary": "",
+      "images": {
+        "igdb_cover": { "id": 0, "image_id": "" },
+        "igdb_screenshots": []
+      },
+      "platforms": { "owned_on": [], "released_on": [] }
     },
     {
-      "title": "Dead Or Alive Xtreme 3 Venus",
-      "platform": "PlayStation Vita"
+      "igdb_name": "",
+      "collection_name": "Adventure",
+      "collection_id": 2569,
+      "collection_index": 543,
+      "collection_completed": false,
+      "collection_completeness": {
+        "complete_code": "Loose",
+        "has_box": false,
+        "has_manual": false
+      },
+      "collection_price_charting_url": "https://www.pricecharting.com/game/Atari-2600/Adventure",
+      "collection_rating": 0,
+      "igdb_id": 0,
+      "igdb_first_release_date": 0,
+      "igdb_genres": [],
+      "igdb_involved_companies": [],
+      "igdb_summary": "",
+      "images": {
+        "igdb_cover": { "id": 0, "image_id": "" },
+        "igdb_screenshots": []
+      },
+      "platforms": { "owned_on": [], "released_on": [] }
     },
-    { "title": "Gravity Rush", "platform": "PlayStation Vita" },
-    { "title": "Dr. Mario", "platform": "Game Boy" }
-  ],
-  [
-    { "title": "Kirby's Dream Land", "platform": "Game Boy" },
-    { "title": "Final Fantasy VI", "platform": "Super Famicom" },
-    { "title": "Final Fantasy IV", "platform": "Super Famicom" },
-    { "title": "Front Mission", "platform": "Super Famicom" },
-    { "title": "Bully", "platform": "PlayStation 2" },
-    { "title": "Xenogears", "platform": "PlayStation" },
-    { "title": "Parasite Eve II", "platform": "PlayStation" },
-    { "title": "Dishonored 2", "platform": "PlayStation 4" },
-    { "title": "Bloodborne", "platform": "PlayStation 4" },
     {
-      "title": "Crash Bandicoot N.Sane Trilogy",
-      "platform": "PlayStation 4"
+      "igdb_name": "",
+      "collection_name": "Albert Odyssey: Legend of Eldean",
+      "collection_id": 1052,
+      "collection_index": 301,
+      "collection_completed": false,
+      "collection_completeness": {
+        "complete_code": "Loose",
+        "has_box": false,
+        "has_manual": false
+      },
+      "collection_price_charting_url": "https://www.pricecharting.com/game/Sega-Saturn/Albert-Odyssey",
+      "collection_rating": 0,
+      "igdb_id": 0,
+      "igdb_first_release_date": 0,
+      "igdb_genres": [],
+      "igdb_involved_companies": [],
+      "igdb_summary": "",
+      "images": {
+        "igdb_cover": { "id": 0, "image_id": "" },
+        "igdb_screenshots": []
+      },
+      "platforms": { "owned_on": [], "released_on": [] }
+    },
+    {
+      "igdb_name": "",
+      "collection_name": "Alisia Dragoon",
+      "collection_id": 1801,
+      "collection_index": 302,
+      "collection_completed": false,
+      "collection_completeness": {
+        "complete_code": "Loose",
+        "has_box": false,
+        "has_manual": false
+      },
+      "collection_price_charting_url": "https://www.pricecharting.com/game/PAL-Sega-Mega-Drive/Alisia-Dragoon",
+      "collection_rating": 0,
+      "igdb_id": 0,
+      "igdb_first_release_date": 0,
+      "igdb_genres": [],
+      "igdb_involved_companies": [],
+      "igdb_summary": "",
+      "images": {
+        "igdb_cover": { "id": 0, "image_id": "" },
+        "igdb_screenshots": []
+      },
+      "platforms": { "owned_on": [], "released_on": [] }
+    },
+    {
+      "igdb_name": "",
+      "collection_name": "Arcade Classic No. 4: Defender / Joust",
+      "collection_id": 567,
+      "collection_index": 124,
+      "collection_completed": false,
+      "collection_completeness": {
+        "complete_code": "Loose",
+        "has_box": false,
+        "has_manual": false
+      },
+      "collection_price_charting_url": "https://www.pricecharting.com/game/GameBoy/Arcade-Classic-4:-Defender-and-Joust",
+      "collection_rating": 0,
+      "igdb_id": 0,
+      "igdb_first_release_date": 0,
+      "igdb_genres": [],
+      "igdb_involved_companies": [],
+      "igdb_summary": "",
+      "images": {
+        "igdb_cover": { "id": 0, "image_id": "" },
+        "igdb_screenshots": []
+      },
+      "platforms": { "owned_on": [], "released_on": [] }
+    },
+    {
+      "igdb_name": "",
+      "collection_name": "Armored Core 3",
+      "collection_id": 918,
+      "collection_index": 269,
+      "collection_completed": false,
+      "collection_completeness": {
+        "complete_code": "Loose",
+        "has_box": false,
+        "has_manual": false
+      },
+      "collection_price_charting_url": "https://www.pricecharting.com/game/Playstation-2/Armored-Core-3",
+      "collection_rating": 0,
+      "igdb_id": 0,
+      "igdb_first_release_date": 0,
+      "igdb_genres": [],
+      "igdb_involved_companies": [],
+      "igdb_summary": "",
+      "images": {
+        "igdb_cover": { "id": 0, "image_id": "" },
+        "igdb_screenshots": []
+      },
+      "platforms": { "owned_on": [], "released_on": [] }
     }
-  ],
-  [
-    { "title": "Hyper Light Drifter", "platform": "PlayStation 4" },
-    { "title": "DOOM", "platform": "PlayStation 4" },
-    { "title": "Final Fantasy XV", "platform": "PlayStation 4" },
-    { "title": "Gang Beasts", "platform": "PlayStation 4" },
-    { "title": "God of War", "platform": "PlayStation 4" },
-    { "title": "Kingdom Come: Deliverance", "platform": "PlayStation 4" },
-    { "title": "Life is Strange", "platform": "PlayStation 4" },
-    { "title": "Night Trap", "platform": "PlayStation 4" },
-    { "title": "Okami HD", "platform": "PlayStation 4" },
-    { "title": "The Order: 1886", "platform": "PlayStation 4" }
-  ],
-  [
-    { "title": "Screencheat", "platform": "PlayStation 4" },
-    {
-      "title": "Middle-Earth: Shadow of Mordor",
-      "platform": "PlayStation 4"
-    },
-    {
-      "title": "Sleeping Dogs: Definitive Edition",
-      "platform": "PlayStation 4"
-    },
-    {
-      "title": "Tomb Raider: Definitive Edition",
-      "platform": "PlayStation 4"
-    },
-    { "title": "Spider-Man", "platform": "PlayStation 4" },
-    {
-      "title": "Rise of the Tomb Raider - 20 Year Celebration",
-      "platform": "PlayStation 4"
-    },
-    { "title": "The Witcher 3: Wild Hunt", "platform": "PlayStation 4" },
-    {
-      "title": "Wonder Boy: The Dragon's Trap",
-      "platform": "PlayStation 4"
-    },
-    { "title": "Tokyo 42", "platform": "PlayStation 4" },
-    { "title": "Uncharted 4: A Thief's End", "platform": "PlayStation 4" }
-  ],
-  [
-    { "title": "Test Drive Off-Road", "platform": "PlayStation" },
-    { "title": "King's Field", "platform": "PlayStation" },
-    { "title": "Super Mario Bros.", "platform": "NES" },
-    { "title": "Super Mario Bros. 2", "platform": "NES" },
-    { "title": "Super Mario Bros. 3", "platform": "NES" },
-    { "title": "Spy Hunter", "platform": "NES" },
-    { "title": "Tetris", "platform": "NES" },
-    { "title": "Teenage Mutant Ninja Turtles", "platform": "NES" },
-    { "title": "Platoon", "platform": "NES" },
-    { "title": "Wizards & Warriors", "platform": "NES" }
-  ],
-  [
-    { "title": "The Legend of Zelda", "platform": "NES" },
-    { "title": "Castlevania II: Simon's Quest", "platform": "NES" },
-    { "title": "Deadly Towers", "platform": "NES" },
-    { "title": "Dragon Warrior", "platform": "NES" },
-    { "title": "Faxanadu", "platform": "NES" },
-    { "title": "Gauntlet II", "platform": "NES" },
-    { "title": "Kid Icarus", "platform": "NES" },
-    { "title": "Final Fantasy V", "platform": "Super Famicom" },
-    { "title": "Secret of Mana", "platform": "Super Famicom" },
-    { "title": "Ogre Battle", "platform": "Super Famicom" }
-  ],
-  [
-    { "title": "Street Fighter 2", "platform": "Super Famicom" },
-    { "title": "Kirby's Avalanche", "platform": "SNES" },
-    { "title": "Super Star Wars", "platform": "SNES" },
-    { "title": "Donkey Kong Country", "platform": "SNES" },
-    {
-      "title": "Teenage Mutant Ninja Turtles IV: Turtles in Time",
-      "platform": "SNES"
-    },
-    { "title": "F-Zero", "platform": "SNES" },
-    { "title": "Super Mario World", "platform": "SNES" },
-    { "title": "Killer Instinct", "platform": "SNES" },
-    { "title": "Secret of Evermore", "platform": "SNES" },
-    {
-      "title": "The Legend of Zelda: A Link to the Past",
-      "platform": "SNES"
-    }
-  ],
-  [
-    {
-      "title": "The Legend of Zelda: Link's Awakening",
-      "platform": "Game Boy"
-    },
-    { "title": "Sonic Chaos", "platform": "Game Gear" },
-    { "title": "Sports Trivia", "platform": "Game Gear" },
-    { "title": "The Majors Pro Baseball", "platform": "Game Gear" },
-    { "title": "The Incredible Hulk", "platform": "Game Gear" },
-    { "title": "Pac-Man", "platform": "Game Gear" },
-    { "title": "Sonic Spinball", "platform": "Game Gear" },
-    { "title": "Walt Disney's The Jungle Book", "platform": "Game Gear" },
-    { "title": "Sonic the Hedgehog 2", "platform": "Game Gear" },
-    {
-      "title": "Super Mario Land 2: 6 Golden Coins",
-      "platform": "Game Boy"
-    }
-  ],
-  [
-    { "title": "Final Fantasy Legend", "platform": "Game Boy" },
-    { "title": "Final Fantasy Legend II", "platform": "Game Boy" },
-    { "title": "Tetris", "platform": "Game Boy" },
-    { "title": "Donkey Kong Land", "platform": "Game Boy" },
-    { "title": "Metroid II: Return of Samus", "platform": "Game Boy" },
-    { "title": "Kwirk", "platform": "Game Boy" },
-    { "title": "Paperboy", "platform": "Game Boy" },
-    { "title": "Tetris Attack", "platform": "Game Boy" },
-    { "title": "Dr. Mario", "platform": "Game Boy" },
-    { "title": "Wario Land: Super Mario Land 3", "platform": "Game Boy" }
-  ],
-  [
-    { "title": "Battle Arena Toshinden", "platform": "Game Boy" },
-    { "title": "Mortal Kombat 3", "platform": "Game Boy" },
-    { "title": "Shadowgate Classic", "platform": "Game Boy" },
-    {
-      "title": "Arcade Classic No. 4: Defender / Joust",
-      "platform": "Game Boy"
-    },
-    { "title": "Legend of the River King", "platform": "Game Boy" },
-    { "title": "Metal Gear Solid", "platform": "PlayStation" },
-    { "title": "Parasite Eve", "platform": "PlayStation" },
-    { "title": "Legend of Mana", "platform": "PlayStation" },
-    { "title": "Chrono Cross", "platform": "PlayStation" },
-    {
-      "title": "Final Fantasy Tactics (Greatest Hits)",
-      "platform": "PlayStation"
-    }
-  ],
-  [
-    { "title": "Final Fantasy Chronicles", "platform": "PlayStation" },
-    { "title": "Final Fantasy IX", "platform": "PlayStation" },
-    { "title": "Final Fantasy VIII", "platform": "PlayStation" },
-    { "title": "Final Fantasy VII", "platform": "PlayStation" },
-    { "title": "Final Fantasy VII", "platform": "PlayStation" },
-    { "title": "Final Fantasy", "platform": "PSP" },
-    { "title": "Tactics Ogre: Let Us Cling Together", "platform": "PSP" },
-    { "title": "Ratchet & Clank: Size Matters", "platform": "PSP" },
-    { "title": "Crisis Core: Final Fantasy VII", "platform": "PSP" },
-    { "title": "New Super Mario Bros. Wii", "platform": "Wii" }
-  ],
-  [
-    { "title": "Super Smash Bros. Brawl", "platform": "Wii" },
-    { "title": "The Legend Of Zelda: Skyward Sword", "platform": "Wii" },
-    { "title": "Final Fantasy X-2", "platform": "PlayStation 2" },
-    { "title": "Final Fantasy X", "platform": "PlayStation 2" },
-    { "title": "Final Fantasy XII", "platform": "PlayStation 2" },
-    {
-      "title": "Dirge of Cerberus: Final Fantasy VII",
-      "platform": "PlayStation 2"
-    },
-    { "title": "Okami", "platform": "PlayStation 2" },
-    { "title": "Odin Sphere", "platform": "PlayStation 2" },
-    { "title": "God of War II", "platform": "PlayStation 2" },
-    {
-      "title": "Metal Gear Solid 3: Snake Eater",
-      "platform": "PlayStation 2"
-    }
-  ],
-  [
-    { "title": "Shadow of the Colossus", "platform": "PlayStation 2" },
-    {
-      "title": "Metal Gear Solid 2: Sons of Liberty",
-      "platform": "PlayStation 2"
-    },
-    { "title": "Forza Motorsport 3", "platform": "Xbox 360" },
-    { "title": "Forza Motorsport 4", "platform": "Xbox 360" },
-    { "title": "Forza Horizon", "platform": "Xbox 360" },
-    { "title": "Dead Island", "platform": "Xbox 360" },
-    { "title": "Halo: Reach", "platform": "Xbox 360" },
-    { "title": "Call of Duty World at War", "platform": "Xbox 360" },
-    { "title": "Grand Theft Auto IV", "platform": "Xbox 360" },
-    { "title": "Gears of War 2", "platform": "Xbox 360" }
-  ],
-  [
-    { "title": "The Orange Box", "platform": "Xbox 360" },
-    { "title": "Grand Theft Auto V", "platform": "Xbox 360" },
-    { "title": "Rock Band", "platform": "Xbox 360" },
-    { "title": "Bioshock 2", "platform": "Xbox 360" },
-    { "title": "Call of Duty 4: Modern Warfare", "platform": "Xbox 360" },
-    { "title": "Left 4 Dead", "platform": "Xbox 360" },
-    { "title": "Call of Duty: Modern Warfare 2", "platform": "Xbox 360" },
-    { "title": "Resident Evil 5", "platform": "Xbox 360" },
-    { "title": "The Elder Scrolls V: Skyrim", "platform": "Xbox 360" },
-    { "title": "Call of Duty: Black Ops", "platform": "Xbox 360" }
-  ],
-  [
-    { "title": "FIFA 13", "platform": "Xbox 360" },
-    { "title": "Dishonored", "platform": "Xbox 360" },
-    { "title": "Assassin's Creed II", "platform": "Xbox 360" },
-    { "title": "Call of Duty: Black Ops II", "platform": "Xbox 360" },
-    { "title": "Red Dead Redemption", "platform": "Xbox 360" },
-    { "title": "Armored Core V", "platform": "PlayStation 3" },
-    { "title": "Armored Core for Answer", "platform": "PlayStation 3" },
-    { "title": "Assassin's Creed III", "platform": "PlayStation 3" },
-    { "title": "BlazBlue: Calamity Trigger", "platform": "PlayStation 3" },
-    { "title": "Bulletstorm", "platform": "PlayStation 3" }
-  ],
-  [
-    { "title": "Call of Duty: Black Ops", "platform": "PlayStation 3" },
-    {
-      "title": "Call of Duty: Modern Warfare 2",
-      "platform": "PlayStation 3"
-    },
-    { "title": "Demon's Souls", "platform": "PlayStation 3" },
-    { "title": "Dishonored", "platform": "PlayStation 3" },
-    { "title": "Dragon Age: Origins", "platform": "PlayStation 3" },
-    { "title": "Dragon's Crown", "platform": "PlayStation 3" },
-    { "title": "FIFA Soccer 10", "platform": "PlayStation 3" },
-    { "title": "Final Fantasy XIII", "platform": "PlayStation 3" },
-    { "title": "God of War III", "platform": "PlayStation 3" },
-    { "title": "GoldenEye 007: Reloaded", "platform": "PlayStation 3" }
-  ],
-  [
-    {
-      "title": "Kidou Senshi Gundam: Extreme VS",
-      "platform": "PlayStation 3"
-    },
-    { "title": "Mass Effect Trilogy", "platform": "PlayStation 3" },
-    {
-      "title": "Metal Gear Solid 4: Guns of the Patriots",
-      "platform": "PlayStation 3"
-    },
-    {
-      "title": "Ni No Kuni: Wrath Of The White Witch",
-      "platform": "PlayStation 3"
-    },
-    {
-      "title": "The Elder Scrolls IV: Oblivion",
-      "platform": "PlayStation 3"
-    },
-    { "title": "Portal 2", "platform": "PlayStation 3" },
-    { "title": "PROTOTYPE", "platform": "PlayStation 3" },
-    {
-      "title": "Uncharted 3: Drake's Deception",
-      "platform": "PlayStation 3"
-    },
-    { "title": "Uncharted Dual Pack", "platform": "PlayStation 3" },
-    { "title": "Beyond: Two Souls", "platform": "PlayStation 3" }
-  ],
-  [
-    { "title": "Sports Champions", "platform": "PlayStation 3" },
-    { "title": "Dante's Inferno", "platform": "PlayStation 3" },
-    {
-      "title": "The Elder Scrolls V: Skyrim - Special Edition",
-      "platform": "PlayStation 4"
-    },
-    { "title": "God of War: Chains of Olympus", "platform": "PSP" },
-    {
-      "title": "Untold Legends: Brotherhood of the Blade",
-      "platform": "PSP"
-    },
-    { "title": "Rengoku: The Tower of Purgatory", "platform": "PSP" },
-    { "title": "Ridge Racer", "platform": "PSP" },
-    {
-      "title": "Final Fantasy Tactics: The War Of The Lions",
-      "platform": "PSP"
-    },
-    { "title": "Daxter", "platform": "PSP" },
-    { "title": "Killzone: Liberation", "platform": "PSP" }
-  ],
-  [
-    { "title": "Grandia", "platform": "PlayStation" },
-    { "title": "Ehrgeiz: God Bless the Ring", "platform": "PlayStation" },
-    { "title": "Heart of Darkness", "platform": "PlayStation" },
-    { "title": "Dead or Alive", "platform": "PlayStation" },
-    { "title": "The Legend of Dragoon", "platform": "PlayStation" },
-    {
-      "title": "Command & Conquer Red Alert Retaliation",
-      "platform": "PlayStation"
-    },
-    { "title": "Warriors of Might and Magic", "platform": "PlayStation" },
-    {
-      "title": "Crash Bandicoot (Greatest Hits)",
-      "platform": "PlayStation"
-    },
-    { "title": "Crash Bandicoot: Warped", "platform": "PlayStation" },
-    {
-      "title": "Grand Theft Auto 2 (Greatest Hits)",
-      "platform": "PlayStation"
-    }
-  ],
-  [
-    { "title": "1Xtreme (Greatest Hits)", "platform": "PlayStation" },
-    { "title": "Army Men 3D (Greatest Hits)", "platform": "PlayStation" },
-    { "title": "Army Men: Air Attack", "platform": "PlayStation" },
-    { "title": "Army Men: Sarge's Heroes 2", "platform": "PlayStation" },
-    { "title": "Tiny Tank: Up Your Arsenal", "platform": "PlayStation" },
-    { "title": "WWF Smackdown!", "platform": "PlayStation" },
-    { "title": "007: The World Is Not Enough", "platform": "PlayStation" },
-    { "title": "Frogger (Greatest Hits)", "platform": "PlayStation" },
-    {
-      "title": "High Heat Major League Baseball 2002",
-      "platform": "PlayStation"
-    },
-    { "title": "Twisted Metal", "platform": "PlayStation" }
-  ],
-  [
-    { "title": "Twisted Metal 3", "platform": "PlayStation" },
-    { "title": "Twisted Metal 4", "platform": "PlayStation" },
-    { "title": "Gran Turismo", "platform": "PlayStation" },
-    {
-      "title": "Gran Turismo 2 (Greatest Hits)",
-      "platform": "PlayStation"
-    },
-    { "title": "Sled Storm", "platform": "PlayStation" },
-    { "title": "Hydro Cross", "platform": "PlayStation" },
-    {
-      "title": "Star Wars: Episode I: The Phantom Menace",
-      "platform": "PlayStation"
-    },
-    { "title": "Final Fantasy VIII", "platform": "PlayStation" },
-    { "title": "Sonic the Hedgehog", "platform": "Genesis" },
-    { "title": "Sonic the Hedgehog 2", "platform": "Genesis" }
-  ],
-  [
-    { "title": "Shining in the Darkness", "platform": "Genesis" },
-    { "title": "Brutal: Paws of Fury", "platform": "Genesis" },
-    { "title": "Ghouls 'N Ghosts", "platform": "Genesis" },
-    { "title": "Rocket Knight Adventures", "platform": "Genesis" },
-    { "title": "Altered Beast", "platform": "Genesis" },
-    {
-      "title": "The Ren & Stimpy Show Presents: Stimpy's Invention",
-      "platform": "Genesis"
-    },
-    { "title": "Vectorman 2", "platform": "Genesis" },
-    {
-      "title": "Spider-Man & Venom: Maximum Carnage",
-      "platform": "Genesis"
-    },
-    { "title": "Kid Chameleon", "platform": "Genesis" },
-    { "title": "Sonic the Hedgehog 2", "platform": "Genesis" }
-  ],
-  [
-    { "title": "Xevious", "platform": "Family Computer" },
-    { "title": "Dragon Quest II", "platform": "Family Computer" },
-    { "title": "Ikari", "platform": "Family Computer" },
-    { "title": "Ninja Gaiden", "platform": "Family Computer" },
-    {
-      "title": "The Legend of Zelda: the Hyrule Fantasy",
-      "platform": "Family Computer"
-    },
-    { "title": "Guilty Gear X", "platform": "PlayStation 2" },
-    {
-      "title": "Star Ocean: Till the End of Time",
-      "platform": "PlayStation 2"
-    },
-    { "title": "Wild Arms 3", "platform": "PlayStation 2" },
-    { "title": "Bloody Roar 3", "platform": "PlayStation 2" },
-    { "title": "Bloody Roar 4", "platform": "PlayStation 2" }
-  ],
-  [
-    { "title": "Ratchet: Deadlocked", "platform": "PlayStation 2" },
-    { "title": "Ratchet & Clank", "platform": "PlayStation 2" },
-    {
-      "title": "The Lord of the Rings: The Third Age",
-      "platform": "PlayStation 2"
-    },
-    {
-      "title": "Xenosaga Episode I: Der Wille zur Macht",
-      "platform": "PlayStation 2"
-    },
-    {
-      "title": "Arc the Lad: Twilight of the Spirits",
-      "platform": "PlayStation 2"
-    },
-    { "title": "Kingdom Hearts", "platform": "PlayStation 2" },
-    { "title": "Devil May Cry", "platform": "PlayStation 2" },
-    { "title": "Armored Core 3", "platform": "PlayStation 2" },
-    { "title": "Killzone", "platform": "PlayStation 2" },
-    { "title": "Rumble Roses", "platform": "PlayStation 2" }
-  ],
-  [
-    { "title": "Madden NFL 06", "platform": "PlayStation 2" },
-    { "title": "Vagrant Story", "platform": "PlayStation" },
-    { "title": "Oni", "platform": "PlayStation 2" },
-    { "title": "Robotica", "platform": "Saturn" },
-    { "title": "God of War", "platform": "PlayStation 2" },
-    { "title": "Shining Wisdom", "platform": "Saturn" },
-    { "title": "Panzer Dragoon II: Zwei", "platform": "Saturn" },
-    { "title": "Panzer Dragoon", "platform": "Saturn" },
-    { "title": "Cyberbots: Full Metal Madness", "platform": "Saturn" },
-    { "title": "Albert Odyssey: Legend of Eldean", "platform": "Saturn" }
-  ],
-  [
-    { "title": "Alisia Dragoon", "platform": "Genesis" },
-    { "title": "Vectorman", "platform": "Genesis" },
-    { "title": "Zelda II: The Adventure of Link", "platform": "NES" },
-    { "title": "Bad Dudes", "platform": "NES" },
-    { "title": "Contra", "platform": "NES" },
-    { "title": "Bomberman", "platform": "NES" },
-    { "title": "Panorama Cotton", "platform": "Genesis" },
-    { "title": "Super C", "platform": "NES" },
-    { "title": "Defender of the Crown", "platform": "NES" },
-    { "title": "Star Fox", "platform": "SNES" }
-  ],
-  [
-    {
-      "title": "Crash Bandicoot 2: Cortex Strikes Back",
-      "platform": "PlayStation"
-    },
-    { "title": "Monster Hunter World", "platform": "PlayStation 4" },
-    { "title": "Horizon: Zero Dawn", "platform": "PlayStation 4" },
-    { "title": "Snake's Revenge", "platform": "NES" },
-    { "title": "Sekiro: Shadows Die Twice", "platform": "PlayStation 4" },
-    {
-      "title": "Oddworld Munch's Oddysee HD",
-      "platform": "PlayStation Vita"
-    },
-    { "title": "Steamworld Dig", "platform": "PlayStation Vita" },
-    { "title": "Zoda's Revenge: Star Tropics II", "platform": "NES" },
-    { "title": "Skullgirls: 2nd Encore", "platform": "PlayStation Vita" },
-    { "title": "Renegade", "platform": "NES" }
-  ],
-  [
-    { "title": "The Legend of Kage", "platform": "NES" },
-    { "title": "Gokujyou Parodius: Deluxe Pack", "platform": "Saturn" },
-    { "title": "Vampire Savior", "platform": "Saturn" },
-    { "title": "Strider", "platform": "Genesis" },
-    { "title": "Shadow of the Tomb Raider", "platform": "PlayStation 4" },
-    { "title": "Astyanax", "platform": "NES" },
-    { "title": "Blazing Dragons", "platform": "Saturn" },
-    {
-      "title": "Metal Gear Solid V: The Phantom Pain",
-      "platform": "PlayStation 4"
-    },
-    { "title": "Gravel", "platform": "PlayStation 4" },
-    { "title": "Samurai Shodown", "platform": "PlayStation 4" }
-  ],
-  [
-    { "title": "New Gundam Breaker", "platform": "PlayStation 4" },
-    { "title": "Yakuza Kiwami", "platform": "PlayStation 4" },
-    {
-      "title": "Lunar: Silver Star Story Complete",
-      "platform": "PlayStation"
-    },
-    { "title": "Fear Effect", "platform": "PlayStation" },
-    {
-      "title": "The Legend of Zelda: Twilight Princess",
-      "platform": "Wii"
-    },
-    { "title": "Gundam F91", "platform": "Super Famicom" },
-    { "title": "Psybadek", "platform": "PlayStation" },
-    { "title": "Solstice", "platform": "NES" },
-    { "title": "River City Ransom", "platform": "NES" },
-    {
-      "title": "Teenage Mutant Ninja Turtles II: The Arcade Game",
-      "platform": "NES"
-    }
-  ],
-  [
-    {
-      "title": "The Legend of Zelda: Majora's Mask",
-      "platform": "Nintendo 64"
-    },
-    { "title": "A Dinosaur's Tale", "platform": "Genesis" },
-    { "title": "VR Troopers", "platform": "Genesis" },
-    { "title": "Kung-Fu Heroes", "platform": "NES" },
-    { "title": "King's Knight", "platform": "NES" },
-    { "title": "WeaponLord", "platform": "SNES" },
-    { "title": "Joe & Mac", "platform": "SNES" },
-    { "title": "Chip 'n Dale: Rescue Rangers", "platform": "NES" },
-    { "title": "Streets of Rage 2", "platform": "Genesis" },
-    { "title": "Hydlide", "platform": "NES" }
-  ],
-  [
-    { "title": "Top Gun", "platform": "NES" },
-    { "title": "Shadowgate", "platform": "NES" },
-    { "title": "Swords and Serpents", "platform": "NES" },
-    { "title": "Silent Service", "platform": "NES" },
-    {
-      "title": "Wizardry: Proving Grounds of the Mad Overlord",
-      "platform": "NES"
-    },
-    { "title": "Virtual On: Cyber Troopers", "platform": "Saturn" },
-    { "title": "Metroid", "platform": "NES" },
-    { "title": "Little Nemo: The Dream Master", "platform": "NES" },
-    { "title": "Equinox", "platform": "SNES" },
-    { "title": "Baku Baku", "platform": "Saturn" }
-  ],
-  [
-    { "title": "Richard Scarry's Busy Town", "platform": "Genesis" },
-    {
-      "title": "Greendog: The Beached Surfer Dude!",
-      "platform": "Genesis"
-    },
-    { "title": "Alundra", "platform": "PlayStation" },
-    { "title": "40 Winks", "platform": "PlayStation" },
-    {
-      "title": "Norse By Norse West: The Return of the Lost Vikings",
-      "platform": "PlayStation"
-    },
-    { "title": "MagMax", "platform": "NES" },
-    { "title": "Nobunaga's Ambition", "platform": "SNES" },
-    { "title": "Nioh", "platform": "PlayStation 4" },
-    { "title": "NieR: Automata", "platform": "PlayStation 4" },
-    {
-      "title": "Shin Kid&#333; Senki Gundam Wing: Endless Duel",
-      "platform": "Super Famicom"
-    }
-  ],
-  [
-    { "title": "Edono Kiba", "platform": "Super Famicom" },
-    { "title": "Live A Live", "platform": "Super Famicom" },
-    { "title": "Tengai Makyou Zero", "platform": "Super Famicom" },
-    {
-      "title": "Super Robot Taisen: The Lord of Elemental",
-      "platform": "Super Famicom"
-    },
-    { "title": "Battle Robot Retsuden", "platform": "Super Famicom" },
-    { "title": "Clash at Demonhead", "platform": "NES" },
-    { "title": "Iron Storm", "platform": "Saturn" },
-    {
-      "title": "Tenka no Goikenban: Mito Koumon",
-      "platform": "Family Computer"
-    },
-    { "title": "Jin Sei Geki Joh", "platform": "Super Famicom" },
-    { "title": "Yoshi no Tamago", "platform": "Family Computer" }
-  ],
-  [
-    { "title": "Garou Densetsu Special", "platform": "Super Famicom" },
-    { "title": "Final Fight", "platform": "SNES" },
-    { "title": "R.C. Pro-Am", "platform": "NES" },
-    { "title": "Rad Racer II", "platform": "NES" },
-    {
-      "title": "The Simpsons: Bart vs. the Space Mutants",
-      "platform": "NES"
-    },
-    { "title": "Dungeon Magic: Sword of the Elements", "platform": "NES" },
-    {
-      "title": "Advanced Dungeons & Dragons: Pool of Radiance",
-      "platform": "NES"
-    },
-    { "title": "Toxic Crusaders", "platform": "Genesis" },
-    { "title": "Mirai Senshi Lios", "platform": "Family Computer" },
-    { "title": "Beyond Good & Evil", "platform": "PlayStation 2" }
-  ],
-  [
-    { "title": "Outlaw Golf 2", "platform": "PlayStation 2" },
-    {
-      "title": "Jak and Daxter: The Precursor Legacy",
-      "platform": "PlayStation 2"
-    },
-    { "title": "Grand Theft Auto III", "platform": "PlayStation 2" },
-    { "title": "Excitebots: Trick Racing", "platform": "Wii" },
-    { "title": "Mushroom Men: The Spore Wars", "platform": "Wii" },
-    { "title": "Monster Lab", "platform": "Wii" },
-    { "title": "Super Mario Galaxy", "platform": "Wii" },
-    { "title": "Monster Hunter Tri", "platform": "Wii" },
-    {
-      "title": "Call of Juarez: Bound in Blood",
-      "platform": "PlayStation 3"
-    },
-    {
-      "title": "Brothers in Arms: Hell's Highway",
-      "platform": "PlayStation 3"
-    }
-  ],
-  [
-    { "title": "Skylanders: Spyro's Adventure", "platform": "Wii" },
-    { "title": "Skylanders: Swap Force", "platform": "Wii" },
-    {
-      "title": "The Legend of Zelda: Breath of the Wild",
-      "platform": "Nintendo Switch"
-    },
-    { "title": "Children of Zodiarcs", "platform": "PlayStation 4" },
-    { "title": "T&C Surf Designs: Wood & Water Rage", "platform": "NES" },
-    { "title": "Bill Elliot's NASCAR Challenge", "platform": "NES" },
-    { "title": "Pro Wrestling", "platform": "NES" },
-    { "title": "Ironsword: Wizards and Warriors 2", "platform": "NES" },
-    { "title": "Defender II", "platform": "NES" },
-    { "title": "Days of Thunder", "platform": "NES" }
-  ],
-  [
-    { "title": "Batman: The Video Game", "platform": "NES" },
-    { "title": "Brave Fencer Musashi", "platform": "PlayStation" },
-    { "title": "The Legend of the Mystical Ninja", "platform": "SNES" },
-    { "title": "Gears of War", "platform": "Xbox 360" },
-    { "title": "Need for Speed: Underground", "platform": "PlayStation 2" },
-    { "title": "Kingdom Hearts II", "platform": "PlayStation 2" },
-    { "title": "Waku Waku 7", "platform": "Saturn" },
-    { "title": "Gunbird", "platform": "Saturn" },
-    { "title": "Blood Factory", "platform": "Saturn" },
-    { "title": "Dungeons & Dragons Collection", "platform": "Saturn" }
-  ],
-  [
-    { "title": "Gauntlet", "platform": "NES" },
-    { "title": "NES Open Tournament Golf", "platform": "NES" },
-    { "title": "Base Wars: Cyber Stadium Series", "platform": "NES" },
-    {
-      "title": "Super Mario Bros. / Duck Hunt / World Class Track Meet",
-      "platform": "NES"
-    },
-    { "title": "Yoshi", "platform": "NES" },
-    { "title": "Star Force", "platform": "NES" },
-    {
-      "title": "A Boy and His Blob: Trouble on Blobolonia",
-      "platform": "NES"
-    },
-    { "title": "Christmas NiGHTS into dreams...", "platform": "Saturn" },
-    { "title": "Layer Section", "platform": "Saturn" },
-    { "title": "Donkey Kong Classics", "platform": "NES" }
-  ],
-  [
-    {
-      "title": "Dragon's Dogma: Dark Arisen",
-      "platform": "Nintendo Switch"
-    },
-    { "title": "Trine Ultimate Collection", "platform": "Nintendo Switch" },
-    { "title": "Marble Madness", "platform": "NES" },
-    {
-      "title": "Super Street Fighter II - The New Challengers",
-      "platform": "Super Famicom"
-    },
-    { "title": "After Burner", "platform": "NES" },
-    { "title": "Commando", "platform": "NES" },
-    { "title": "Ghosts'n Goblins", "platform": "NES" },
-    { "title": "Dig Dug II", "platform": "NES" },
-    { "title": "Double Dragon", "platform": "NES" },
-    { "title": "Gradius", "platform": "NES" }
-  ],
-  [
-    { "title": "Gyromite", "platform": "NES" },
-    { "title": "Super Mario Bros. / Duckhunt", "platform": "NES" },
-    { "title": "Seiken Densetsu 3", "platform": "Super Famicom" },
-    { "title": "Chrono Trigger", "platform": "Super Famicom" },
-    { "title": "Dragon Spirit", "platform": "NES" },
-    { "title": "Punch-Out!!", "platform": "NES" },
-    { "title": "Adventures of Lolo", "platform": "NES" },
-    { "title": "Castlevania III: Dracula's Curse", "platform": "NES" },
-    { "title": "Castlevania", "platform": "NES" },
-    { "title": "Knights of the Round", "platform": "SNES" }
-  ],
-  [
-    { "title": "Sexy Parodius", "platform": "Saturn" },
-    { "title": "S&#246;ldnerschild", "platform": "Saturn" },
-    { "title": "Policenauts", "platform": "Saturn" },
-    { "title": "New Type Action Game: NOON", "platform": "Saturn" },
-    {
-      "title": "Mobile Suit Gundam: Seed vs. Z.A.F.T Portable",
-      "platform": "PSP"
-    },
-    { "title": "Jay and Silent Bob - Mall Brawl", "platform": "NES" },
-    { "title": "Bastard!", "platform": "SNES" },
-    { "title": "Dead Tomb", "platform": "NES" },
-    { "title": "Furwind", "platform": "PlayStation Vita" },
-    { "title": "Medievil", "platform": "PlayStation 4" }
-  ],
-  [
-    { "title": "Metroid Dread", "platform": "Nintendo Switch" },
-    {
-      "title": "Suiko Enbu: Outlaws of the Lost Dynasty",
-      "platform": "Saturn"
-    },
-    {
-      "title": "Crash Bandicoot 2: Cortex Strikes Back",
-      "platform": "PlayStation"
-    },
-    { "title": "Tenchu: Stealth Assassins", "platform": "PlayStation" },
-    { "title": "Virtual On: Cyber Troopers", "platform": "Saturn" },
-    {
-      "title": "Tenchu 2: Birth of the Stealth Assassins",
-      "platform": "PlayStation"
-    },
-    {
-      "title": "Star Wars: Battlefront: Renegade Squadron",
-      "platform": "PSP"
-    },
-    { "title": "Brave Story: New Traveler", "platform": "PSP" },
-    { "title": "The Guardian Legend", "platform": "NES" },
-    { "title": "Nekketsu Kouha Kunio-Kun", "platform": "Family Computer" }
-  ],
-  [
-    { "title": "Bushido Blade", "platform": "PlayStation" },
-    { "title": "Neo Contra", "platform": "PlayStation 2" },
-    { "title": "Arkista's Ring", "platform": "NES" },
-    { "title": "Athena", "platform": "NES" },
-    { "title": "N2O: Nitrous Oxide", "platform": "PlayStation" },
-    { "title": "Blaster Master", "platform": "NES" },
-    {
-      "title": "Spider-Man: Return of the Sinister Six",
-      "platform": "NES"
-    },
-    { "title": "The Last of Us: Part II", "platform": "PlayStation 4" },
-    { "title": "Final Fantasy VII Remake", "platform": "PlayStation 4" },
-    { "title": "Super Pitfall", "platform": "NES" }
-  ],
-  [
-    { "title": "8 Eyes", "platform": "NES" },
-    { "title": "NARC", "platform": "NES" },
-    { "title": "Lode Runner", "platform": "NES" },
-    { "title": "Captain Skyhawk", "platform": "NES" },
-    { "title": "Star Voyager", "platform": "NES" },
-    { "title": "Ghost of Tsushima", "platform": "PlayStation 4" },
-    { "title": "MDK", "platform": "PlayStation" },
-    { "title": "Total Eclipse Turbo", "platform": "PlayStation" },
-    { "title": "Thea: The Awakening", "platform": "Nintendo Switch" },
-    { "title": "Wild 9", "platform": "PlayStation" }
-  ],
-  [
-    { "title": "Q*bert", "platform": "NES" },
-    { "title": "Sonic the Hedgehog 3", "platform": "Genesis" },
-    { "title": "Warhawk", "platform": "PlayStation" },
-    { "title": "Super R-Type", "platform": "SNES" },
-    { "title": "Demolition Man", "platform": "SNES" },
-    { "title": "Clay Fighter", "platform": "SNES" },
-    { "title": "Gundam Battle Assault", "platform": "PlayStation" },
-    { "title": "Castlequest", "platform": "NES" },
-    { "title": "Dr. Mario", "platform": "NES" },
-    { "title": "Flying Dragon: The Secret Scroll", "platform": "NES" }
-  ],
-  [
-    { "title": "Kabuki Quantum Fighter", "platform": "NES" },
-    { "title": "Section Z", "platform": "NES" },
-    { "title": "M.U.S.C.L.E.", "platform": "NES" },
-    { "title": "Lee Trevino's Fighting Golf", "platform": "NES" },
-    { "title": "Palamedes", "platform": "NES" },
-    { "title": "Burai Fighter", "platform": "NES" },
-    { "title": "RoboCop", "platform": "NES" },
-    { "title": "Strider 2", "platform": "PlayStation" },
-    { "title": "Omega Boost", "platform": "PlayStation" },
-    { "title": "Streets of Rage 4", "platform": "Nintendo Switch" }
-  ],
-  [
-    { "title": "Panzer Dragoon", "platform": "Nintendo Switch" },
-    { "title": "Future Cop: LAPD", "platform": "PlayStation" },
-    { "title": "Rollcage", "platform": "PlayStation" },
-    { "title": "Super Mario 3D All-Stars", "platform": "Nintendo Switch" },
-    {
-      "title": "Scott Pilgrim vs the World Complete Edition",
-      "platform": "Nintendo Switch"
-    },
-    { "title": "Ivan Ironman Stewarts Super Off-Road", "platform": "NES" },
-    { "title": "World Heroes", "platform": "SNES" },
-    { "title": "Destroy all Humans!", "platform": "PlayStation 4" },
-    { "title": "Truxton", "platform": "Genesis" },
-    { "title": "Gradius III", "platform": "SNES" }
-  ],
-  [
-    { "title": "Darius Twin", "platform": "SNES" },
-    { "title": "Gyruss", "platform": "NES" },
-    { "title": "Dragon Power", "platform": "NES" },
-    { "title": "Sky Kid", "platform": "NES" },
-    { "title": "Juggernaut", "platform": "PlayStation" },
-    {
-      "title": "Shadow Dancer: The Secret of Shinobi",
-      "platform": "Genesis"
-    },
-    { "title": "Bucky O'Hare", "platform": "Family Computer" },
-    { "title": "Salamander", "platform": "Family Computer" },
-    { "title": "Juvei Quest", "platform": "Family Computer" },
-    { "title": "Nekketsu Kakutou Densetsu", "platform": "Family Computer" }
-  ],
-  [
-    { "title": "Mighty Gunvolt Burst", "platform": "Nintendo Switch" },
-    { "title": "Bard's Gold", "platform": "PlayStation Vita" },
-    { "title": "Silent Hill Origins", "platform": "PSP" },
-    { "title": "Super Off Road", "platform": "SNES" },
-    { "title": "Obitus", "platform": "SNES" },
-    { "title": "Adventure", "platform": "Atari 2600" },
-    { "title": "Crazy Taxi", "platform": "Dreamcast" },
-    {
-      "title": "Marvel vs. Capcom 2: New Age of Heroes",
-      "platform": "Dreamcast"
-    },
-    { "title": "Mortal Kombat Gold", "platform": "Dreamcast" },
-    { "title": "SoulCalibur", "platform": "Dreamcast" }
-  ],
-  [
-    {
-      "title": "Star Wars: Rebel Assault II - The Hidden Empire",
-      "platform": "PlayStation"
-    },
-    { "title": "Spider-Man", "platform": "PlayStation" },
-    { "title": "Mortal Kombat Trilogy", "platform": "PlayStation" },
-    {
-      "title": "Tenchu 2: Birth of the Stealth Assassins",
-      "platform": "PlayStation"
-    },
-    { "title": "Tekken 2", "platform": "PlayStation" },
-    { "title": "Tekken 3", "platform": "PlayStation" },
-    { "title": "Slave Zero", "platform": "Dreamcast" },
-    { "title": "Alpha Mission", "platform": "NES" },
-    { "title": "Sub-Terrania", "platform": "Genesis" },
-    { "title": "720&#186;", "platform": "NES" }
-  ],
-  [
-    { "title": "Gauntlet Legends", "platform": "PlayStation" },
-    { "title": "OKAGE: Shadow King", "platform": "PlayStation 2" },
-    {
-      "title": "Forgotten Realms: Demon Stone",
-      "platform": "PlayStation 2"
-    },
-    { "title": "Star Ocean: The Second Story", "platform": "PlayStation" },
-    { "title": "Tony Hawk's Pro Skater 2", "platform": "PlayStation" },
-    { "title": "Darkwing Duck", "platform": "NES" },
-    { "title": "Mickey Mousecapade", "platform": "NES" },
-    { "title": "Maken X", "platform": "Dreamcast" },
-    { "title": "Bomberman Party Edition", "platform": "PlayStation" },
-    { "title": "Sonic the Hedgehog: Spinball", "platform": "Genesis" }
-  ],
-  [
-    { "title": "Super Bomberman R", "platform": "Nintendo Switch" },
-    { "title": "Uncharted: The Lost Legacy", "platform": "PlayStation 4" },
-    { "title": "Revenant Saga", "platform": "PlayStation Vita" },
-    {
-      "title": "DOOM: The Classics Collection",
-      "platform": "Nintendo Switch"
-    },
-    { "title": "Killer Queen Black", "platform": "Nintendo Switch" },
-    { "title": "Onimusha: Warlords", "platform": "PlayStation 2" },
-    { "title": "Skate or Die", "platform": "NES" },
-    { "title": "Duck Tales", "platform": "NES" },
-    { "title": "Metal Slug X", "platform": "PlayStation" },
-    { "title": "Tearaway", "platform": "PlayStation Vita" }
-  ],
-  [
-    { "title": "Judgement", "platform": "PlayStation 4" },
-    { "title": "Sam & Max Save the World", "platform": "Nintendo Switch" },
-    { "title": "Octopath Traveler", "platform": "Nintendo Switch" },
-    { "title": "Double Dragon Neon", "platform": "Nintendo Switch" },
-    {
-      "title": "Castlevania Anniversary Collection",
-      "platform": "Nintendo Switch"
-    },
-    { "title": "Disney Infinity", "platform": "PlayStation 3" },
-    {
-      "title": "Tom Clancy's Rainbow Six: Vegas 2",
-      "platform": "Xbox 360"
-    },
-    { "title": "Red Dead Redemption", "platform": "Xbox 360" },
-    { "title": "Wii Fit Plus", "platform": "Wii" }
-  ],
-  [],
-  []
+  ]
 ]}

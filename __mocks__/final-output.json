@@ -1,0 +1,32 @@
+[
+  {
+    "igdb_name": "",
+    "collection_name": "",
+    "collection_id": 0,
+    "collection_region": "",
+    "collection_completed": false,
+    "collection_completeness": {
+      "complete_code": "",
+      "has_box": false,
+      "has_manual": false
+    },
+    "collection_price_charting_url": "",
+    "collection_rating": 0,
+    "igdb_id": 0,
+    "igdb_first_release_date": 0,
+    "igdb_genres": [],
+    "igdb_involved_companies": [],
+    "igdb_summary": "",
+    "images": {
+      "igdb_cover": {
+        "id": 0,
+        "image_id": ""
+      },
+      "igdb_screenshots": []
+    },
+    "platforms": {
+      "owned_on": [],
+      "released_on": []
+    }
+  }
+]
