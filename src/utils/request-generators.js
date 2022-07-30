@@ -10,5 +10,17 @@ export const generateGamesMultiQuery = (gameArr, fieldArr) => {
     fieldStr += (index !== fieldArr.length-1) ? `${field},` : `${field}`
   })
 
-  return `query games "Aggregated Games" {where ${gameStr}; fields ${fieldStr};};`
+  const queryString = `query games "Aggregated Games" {where ${gameStr}; fields ${fieldStr};};`
+
+  console.log(queryString)
+  return queryString
+}
+
+export const generateSingleGameQuery = (gameTitle, fieldArr) => {
+  let fieldStr = ''
+  fieldArr.forEach((field, index) => {
+    fieldStr += (index !== fieldArr.length-1) ? `${field},` : `${field}`
+  })
+
+  return `query games "Single Game" {where name="${gameTitle}"; fields ${fieldStr};};`
 }
